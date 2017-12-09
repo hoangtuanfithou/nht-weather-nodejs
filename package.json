@@ -5,10 +5,10 @@
   "engines": {
     "node": "8.9.1"
   },
-  "main": "service.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node service.js",
-    "test": "node service.js"
+    "start": "node server.js",
+    "test": "node server.js"
   },
   "dependencies": {
     "ejs": "^2.5.6",
