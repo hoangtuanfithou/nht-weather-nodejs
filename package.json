@@ -1,0 +1,31 @@
+{
+  "name": "nht-weather-nodejs",
+  "version": "0.3.0",
+  "description": "Weather app using node JS",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js",
+    "test": "node service.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoangtuanfithou/nht-weather-nodejs"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
